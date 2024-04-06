@@ -61,7 +61,7 @@ function App() {
 
   return (
     <>
-<div className='bg-slate-700 flex w-[1400px] h-[450px] m-auto mt-[6%] flex-col justify-evenly  p-[100px] rounded-full animate-fadeIn'>
+<div className='bg-slate-700 flex w-[1000px] h-[400px] m-auto mt-[4%] flex-col justify-evenly  p-[100px] rounded-full animate-fadeIn'>
   <h1 className=" py-4 mx-28 text-center tracking-widest font-serif rounded-3xl text-3xl bg-orange-500 mb-10 animate-bounce">
           Password Generator
         </h1>
@@ -69,7 +69,7 @@ function App() {
           <input
             type="text"
             value={password}
-            className="w-[40%] py-4 px-[4%] outline-none rounded-3xl tracking-widest font-bold text-2xl text-black
+            className="w-[55%] py-4 px-[4%] outline-none rounded-3xl tracking-widest font-bold text-2xl text-black
             "
             placeholder="Password...!"
             readOnly
